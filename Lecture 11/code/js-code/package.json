@@ -1,0 +1,15 @@
+{
+  "name": "rag-ecommerce-support-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": ">=3.0.0",
+    "js-tiktoken": ">=1.0.20",
+    "openai": ">=4.85.0",
+    "pdf-parse": "1.1.1"
+  }
+}
