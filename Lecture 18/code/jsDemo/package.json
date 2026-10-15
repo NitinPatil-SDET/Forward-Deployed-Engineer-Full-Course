@@ -1,0 +1,12 @@
+{
+  "name": "testing-demo-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/main/TestingDemoApplication.js",
+    "test": "node --test src/test/TestingDemoApplicationTests.js",
+    "eval": "node --test src/test/SupportAgentEvalTest.js"
+  }
+}
